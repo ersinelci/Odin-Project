@@ -33,6 +33,8 @@ ul{
     flex-direction: row;
 }
 
+
+
 .navbar-left, .navbar-right {
     display: flex;
     width: 50%;
@@ -49,10 +51,41 @@ h1 {
 .content {
     display:flex;
     flex-direction: row;
+    margin: 50px;
 }
-.content-left,.content-right {
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin: 50px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 150px;
+}
+
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+    margin-right: 210px;
+    
 }
